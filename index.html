@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <h1>Photo Gallery</h1>
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <img src="ILoveCarsPoster.jpg" />
+    <br>
+    <br>
+    <div>
+        <h1>Grid Gallery</h1>
+        <div class="image-section">
+            <div class="section-style">
+                <img class="img1" src="LamborghiniVisionGT.jpeg" />
+            </div>
+            <div class="section-style">
+                <img class="img1" src="LamborghiniTerzoMillenio.jpg" />
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="section-style">
+                <img class="img1" src="porsche911safari.jpg" alt="" />
+            </div>
+            <div class="section-style">
+                <img class="img1" src="Porsche911TurboS.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="section-style">
+                <img class="img1" src="KoenigseggAgeraRS.jpg" alt="" />
+            </div>
+
+            <div class="section-style">
+                <img class="img1" src="KoenigseggRegera.jpg" alt="" />
+            </div>
+        </div>
+        <div class="image-section">
+            <div class="section-style">
+                <img class="img1" src="MclarenP1GTR.jpg" alt="" />
+            </div>
+            <div class="section-style">
+                <img class="img1" src="LamborghiniCentenario.jpg" alt="" />
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <h1>Sliding Gallery</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner container">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive img2" src="https://www.gtplanet.net/wp-content/uploads/2019/11/FB481FD6-DC0B-4530-B279-6A2AE8B896A5.jpeg">
+                        <div class="carousel-content">
+                            <p>Lamborghini Vision V-12 GT</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img class="img-responsive img2" src="https://i.redd.it/a6lpi6ljmb621.jpg">
+                        <div class="carousel-content">
+                            <p>Lamborghini Terzo Millenio</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive img2" class="img1" src="https://cdn.blessthisstuff.com/imagens/stuff/singer-porsche-911-safari-2.jpg">
+                        <div class="carousel-content">
+                            <p>Porsche 911 Safari</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img class="img-responsive img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4XcIaUgNLNsU1B3AhruifMOY-7GxeAK1X_Q&usqp=CAU">
+                        <div class="carousel-content">
+                            <p>Porsche 911 Turbo S</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img class="img-responsive img2" src="https://images.hgmsites.net/med/rebuilt-koenigsegg-agera-rs-gryphon_100719710_m.jpg">
+                        <div class="carousel-content">
+                            <p>Koenigsegg Agera RS</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                    <img class="img-responsive img2" src="https://cdn.carbuzz.com/gallery-images/1600/708000/400/708419.jpg">
+                    <div class="carousel-content">
+                        <p>Koenigsegg Regera</p>
+                    </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                    <img class="img-responsive img2" src="https://images.spot.im/v1/production/z0b9l7lrwi59ze6gulkj">
+                    <div class="carousel-content">
+                        <p>Mclaren P1 GTR</p>
+                    </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                    <img class="img-responsive img2" src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/Centenario/header_Centenario_og_wa%20%281%29.jpg">
+                    <div class="carousel-content">
+                        <p>Lamborghini Centenario</p>
+                    </div>
+                    </center>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
